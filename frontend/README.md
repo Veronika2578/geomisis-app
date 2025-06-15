@@ -7,3 +7,12 @@
 - `lib/` — основной код
 - `assets/` — иконки, шрифты
 - `test/` — widget-тесты
+
+### Запуск
+
+```bash
+flutter pub get
+flutter run
+```
+
+Приложение подключается к backend по адресу `http://localhost:8000/api/v1`.
