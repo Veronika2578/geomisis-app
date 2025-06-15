@@ -40,3 +40,17 @@ graph LR
     API --> Schedule[(Schedule Service)]
   end
   MapsDB --> {OpenStreetMap data}
+```
+
+### Быстрый старт
+
+```bash
+# Запуск backend
+docker-compose up --build
+
+# Запуск Flutter (требуется установленный Flutter SDK)
+cd frontend
+flutter run
+```
+
+API будет доступно по адресу `http://localhost:8000/api/v1`.
