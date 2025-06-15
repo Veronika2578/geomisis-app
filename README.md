@@ -39,7 +39,7 @@ graph LR
     API --> MapsDB[(PostGIS)]
     API --> Schedule[(Schedule Service)]
   end
-  MapsDB --> {OpenStreetMap data}
+  MapsDB --> OSData[(OpenStreetMap data)]
 ```
 
 ### Быстрый старт

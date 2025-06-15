@@ -2,5 +2,6 @@ fastapi
 uvicorn
 SQLAlchemy
 pydantic
+pydantic-settings
 python-multipart
 
